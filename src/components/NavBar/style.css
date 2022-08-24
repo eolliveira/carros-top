@@ -1,0 +1,32 @@
+.nav-container {
+  font-size: 18px;
+  display: flex;
+  padding: 15px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu-container h1,
+a {
+  color: #00285f;
+}
+
+.nav-container h1 {
+  font-size: 1.4em;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu-container {
+}
+
+.nav-menu-container li {
+  margin-top: 15px;
+  font-size: 1em;
+}
+
+.active {
+  font-weight: 700;
+}
