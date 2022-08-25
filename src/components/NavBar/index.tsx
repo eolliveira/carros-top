@@ -3,7 +3,7 @@ import "./style.css";
 
 const NavBar = () => {
   return (
-    <nav className="bg-primary nav-container navbar navbar-expand-md navbar-light">
+    <nav className="bg-primary nav-container navbar navbar-expand-md navbar-light fixed-top">
       <a href="#">
         <h1>Carros Top</h1>
       </a>
