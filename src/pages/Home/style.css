@@ -77,8 +77,37 @@
       }  
 }
 
-@media(min-width: 768px) {
+@media(min-width: 992px) {
 
-    
+  .home-card-image {
+    padding: 60px;
+  }
+
+  .home-card-text {
+    justify-content: flex-start ;
+    padding: 0 0 0 85px;
+  }  
+
+
+
 }
+
+@media(min-width: 992px) {
+
+  .home-card-image {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+  .home-text {
+    text-align: start;
+}
+
+.home-text p {
+  margin-top: 5px;
+}
+
+
+}
+
 

@@ -11,6 +11,11 @@ a {
   color: #00285f;
 }
 
+.nav-menu-container h1:hover,
+a:hover {
+  color: #00285f;
+}
+
 .nav-container h1 {
   font-size: 1.4em;
 }
@@ -34,24 +39,41 @@ a {
 
 @media(min-width: 768px) {
 
-  .nav-menu {
-    display: flex;
-  }
 
-  .nav-menu-container  {
-    display: flex;
-  color: #00285f;
-}
- 
   #carrostop-navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
   }
 
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
+  .nav-menu-container li {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 1em;
   }
   
     
 }
+
+@media(min-width: 1280px) {
+
+
+  .nav-container {
+    padding-right: 150px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-menu-container li {
+    margin-left: 48px;
+  }
+  
+
+
+    
+}
+
+
+
+
