@@ -23,7 +23,7 @@
 }
 
 .home-text {
-    max-width: 420px;
+  max-width: 420px;
 }
 
 .home-text h2 {
@@ -53,47 +53,42 @@
   font-size: 1.3em;
 }
 
-@media(min-width: 576px) {
+@media (min-width: 576px) {
+  .home-container {
+    margin: 20px;
+    font-size: 18px;
+  }
 
-    .home-container {
-        margin: 20px;
-        font-size: 18px;
-      }
-    
-      .home-img {
-        width: 333px;
-        height: 200px;
-      }
+  .home-img {
+    width: 333px;
+    height: 200px;
+  }
 
-      .home-card-text {
-        flex-direction: row;
-      }
+  .home-card-text {
+    flex-direction: row;
+    padding-top: 0;
+  }
 
-      .home-card-text p {
-        font-size: 1em;
-        margin: 2px 0 0 15px;
-        flex-direction: row;
-        justify-content: space-around;
-      }  
+  .home-card-text p {
+    font-size: 1em;
+    margin: 2px 0 0 15px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
-@media(min-width: 992px) {
-
+@media (min-width: 768px) {
   .home-card-image {
     padding: 60px;
   }
 
   .home-card-text {
-    justify-content: flex-start ;
+    justify-content: flex-start;
     padding: 0 0 0 85px;
-  }  
-
-
-
+  }
 }
 
-@media(min-width: 992px) {
-
+@media (min-width: 1280px) {
   .home-card-image {
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -101,13 +96,9 @@
 
   .home-text {
     text-align: start;
+  }
+
+  .home-text p {
+    margin-top: 5px;
+  }
 }
-
-.home-text p {
-  margin-top: 5px;
-}
-
-
-}
-
-

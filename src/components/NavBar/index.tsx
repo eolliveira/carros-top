@@ -23,7 +23,9 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="carrostop-navbar">
         <ul className="nav-menu-container nav-menu navbar-nav">
           <li>
-            <a href="#" className="active">Home</a>
+            <a href="#" className="active">
+              Home
+            </a>
           </li>
           <li>
             <a href="#">Catálogo</a>
