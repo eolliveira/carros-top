@@ -1,6 +1,6 @@
-import './style.css';
+import "./style.css";
 import CarImg from "../../assets/img/car-card.png";
-import Button from '../Button';
+import Button from "../Button";
 
 const CarCard = () => {
   return (

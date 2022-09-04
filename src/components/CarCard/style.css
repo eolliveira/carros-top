@@ -47,33 +47,24 @@
 }
 
 @media (min-width: 992px) {
-  
-    .car-card-container {
-        width: 100%;
-        font-size: 14px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(216, 216, 216);
-        box-shadow: none;
-        padding: 15px;
-        margin: 15px 0px;
-      }
-      
-      .car-card-img {
-        max-width: 220px;
-        max-height: 165px;
-      }
-      
-      .car-card-img img {
-        width: 100%;
-      }
-      
-      
+  .car-card-container {
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    box-shadow: none;
+    padding: 15px;
+    margin: 15px 0px;
   }
-  
 
+  .car-card-img {
+    max-width: 220px;
+    max-height: 165px;
+  }
 
-
-
-
+  .car-card-img img {
+    width: 100%;
+  }
+}

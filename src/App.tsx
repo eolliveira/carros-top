@@ -1,12 +1,9 @@
-import './assets/styles/custom.scss';
-import './App.css';
-import Catalog from './pages/Catalog';
-
+import "./assets/styles/custom.scss";
+import "./App.css";
+import RoutesMain from "./RoutesMain";
 
 function App() {
-  return (
-    <Catalog />
-  );
+  return <RoutesMain />;
 }
 
 export default App;

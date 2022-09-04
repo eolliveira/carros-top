@@ -2,9 +2,17 @@
   max-width: 728px;
 }
 
+@media (min-width: 992px) {
+  .catalog-container {
+    max-width: 952px;
+  }
+}
 
 @media (min-width: 1280px) {
   .catalog-container {
-      max-width: 979px;
+    max-width: 979px;
   }
 }
+
+
+
